@@ -14,7 +14,6 @@ body {
     background: url(../images/background.jpg);
     background-size: cover;
     background-position: 85% 15%;
-    background-clip: content-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -109,23 +108,22 @@ label {
 
                                         /* LOADING BARS */
 
-.bar-one {
+.loading {
     min-height: 1.8em;
     border-radius: 5px;
+}                                       
+
+.bar-one {
     width: 30%;
     background-color: #f5b453;
 }
 
 .bar-two {
-    min-height: 1.8em;
-    border-radius: 5px;
     width: 50%;
     background-color: #1ec31e;
 }
 
 .bar-three {
-    min-height: 1.8em;
-    border-radius: 5px;
     width: 15%;
     background-color: #be4141;
 }
